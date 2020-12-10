@@ -36,7 +36,10 @@ export default function App() {
     <div className="App">
       <h1> Inside outt </h1>
 
-      <input onChange={emojiHandler} />
+      <input
+        placeholder="enter an emoji to know it's meaning.."
+        onChange={emojiHandler}
+      />
 
       <div
         style={{ fontStyle: "italic", fontWeight: "bold" }}
